@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
+import CollectInfo from "../pages/CollectInfo";
 
 export const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact/>
+            },
+            {
+                path: '/collect-info',
+                element: <CollectInfo/>
             }
         ]
     }
